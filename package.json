@@ -1,0 +1,27 @@
+{
+    "name": "lesson1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "nodemon index.js",
+      "dev": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Eugen",
+    "license": "ISC",
+    "dependencies": {
+      "colors": "^1.4.0",
+      "inquirer": "^9.1.4",
+      "link": "^1.5.1",
+      "moment": "^2.29.4",
+      "moment-duration-format": "^2.3.2",
+      "moment-precise-range-plugin": "^1.3.0",
+      "nodemon": "^2.0.20",
+      "yargs": "^17.6.0"
+    },
+    "bin": {
+      "reader": "cli.js"
+    }
+  }
